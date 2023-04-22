@@ -4,7 +4,7 @@ library(ggplot2)
 
 #My notes on how to use terminal
 
-# First, clone a repo you wanna work on.
+# First, decide a repo you wanna work on. (creating a repo from scratch can be easily done in online version)
 
 # Second, make your R project
   # 1 @Rstudio, File > New Project > Version Control > Git, and enter the project name you want. pick the local file location
