@@ -25,3 +25,11 @@ library(ggplot2)
   # 6 then type:git push
   # 7 check GitHub remote to see if it is actually updated.
 
+
+#--------re-start working on an existing R proj-----------
+# 1 on R studio, File > Open Project... > find the Rproj you want to work on
+# 2 this should open a new window, and on the Terminal, should see the current dir is on the Rproj location.
+# 3 edit scripts as usual.
+# 4 to push this to Git hub, type: git 
+
+
