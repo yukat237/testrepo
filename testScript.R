@@ -4,10 +4,13 @@ library(ggplot2)
 
 #My notes on how to use terminal
 
+#---------you want to create a repo, Rproject, and files from scratch---------------
+
 # First, decide a repo you wanna work on. (creating a repo from scratch can be easily done in online version)
+# Then copy its URL from the "< > Code" tab.
 
 # Second, make your R project
-  # 1 @Rstudio, File > New Project > Version Control > Git, and enter the project name you want. pick the local file location
+  # 1 @Rstudio, File > New Project > Version Control > Git, and paste the repo URL into the first box, enter the project name you want, and pick the local file location
   # 2 now you are automatically in project. on the right top pane, under "Git" tab, you will see the ".Rproj" and ".gitignore"
 
 #to use GUI to commit...
@@ -34,4 +37,14 @@ library(ggplot2)
 # 5 then type:git commit -m "ENTER MESSAGE"  <- type in whatever message within the quote.
 # 6 then type:git push
 # 7 check GitHub remote to see if it is actually updated.
+
+#-------clone an existing repo from the Hub, by making an Rproj on the current device for the first time and start editting them-----
+# 1 Do the "First" and "Second" steps at the top.
+# 2 All the files are in the local folder you designated. from R Studio, File > Open File > and then find the .R file you want to edit.
+
+#-------adding a new script-----------
+# 1 Once you are in the cloned local repo on R Studio, create a new R script from the R Studio 
+# 2 write a new script as usual, and save it to the path the R proj exists.
+# 3 
+
 
